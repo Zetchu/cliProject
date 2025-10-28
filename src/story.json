@@ -85,15 +85,15 @@
     "text": "You step outside the cabin into a bustling city plaza. The architecture is medieval, but clean and bright. You see several shops and a tavern.",
     "choices": [
       {
-        "option": "Visit the Blacksmith ('Steelsong Forge').",
+        "option": "Visit the Blacksmith.",
         "next": "visit_blacksmith"
       },
       {
-        "option": "Visit the Alchemist ('The Bubbling Beaker').",
+        "option": "Visit the Alchemist.",
         "next": "visit_alchemist"
       },
       {
-        "option": "Visit the Tavern ('The Prancing Pony').",
+        "option": "Visit the Tavern.",
         "next": "visit_tavern"
       },
       {
@@ -154,11 +154,11 @@
     "text": "You've explored the city and gathered some intel. The city gates are open. Where will you go?",
     "choices": [
       {
-        "option": "Head to the northern caves. (Goblins)",
+        "option": "Head to the northern caves.",
         "next": "cave_entrance"
       },
       {
-        "option": "Go back to the tavern to deal with the Shadowclaws. (Thugs)",
+        "option": "Go back to the tavern to deal with the Shadowclaws.",
         "next": "tavern_brawl"
       }
     ]
@@ -243,7 +243,7 @@
       }
     ]
   },
-  "battle_win_ tavern": {
+  "battle_win_tavern": {
     "text": "Your quick thinking and training pay off. You and the other tavern patrons manage to subdue the Shadowclaws. The city guard arrives to arrest them. The innkeeper gives you a reward.",
     "choices": [
       {
