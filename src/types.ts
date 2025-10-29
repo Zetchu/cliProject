@@ -1,9 +1,9 @@
-export interface Choice {
+interface Choice {
   option: string;
   next: string;
 }
 
-export interface Scene {
+interface Scene {
   text: string;
   choices?: Choice[];
   end?: boolean;

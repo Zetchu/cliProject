@@ -41,14 +41,12 @@ async function startGame() {
     );
 
     //checks if its the end
-
     if (scene?.end) {
       console.log(`${colors.green}** Thank you for playing! **${colors.reset}\n`);
       break;
     }
 
     //if not the end, give choices
-
     if (scene?.choices) {
       scene.choices.forEach((choice, index) => {
         console.log(
